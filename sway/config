@@ -32,6 +32,15 @@ set $menu wofi
 
   exec_always --no-startup-id ~/.config/sway/autostart.sh
 
+# ===============
+# == Clipboard ==
+# ===============
+
+# sudo apt install parcellite
+# Uncomment line below for clipboard support. Make sure to install parcellite before using
+# Start parcellite in the system tray
+# exec --no-startup-id parcellite
+
 ### ///////////////////////////////////////////////////////////////////////
 
 ############
